@@ -1,0 +1,26 @@
+using System;
+
+namespace Exercícios
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite sua rua: ");
+			string rua = Console.ReadLine();
+			
+			Console.WriteLine("Digite o número da sua casa: ");
+			int numero = int.Parse(Console.ReadLine());
+			
+			Console.WriteLine("Digite o nome da sua cidade: ");
+			string cidade = Console.ReadLine();
+			
+			Console.WriteLine("Digite o nome do seu estado: ");
+			string estado = Console.ReadLine();
+			
+			Console.WriteLine("Você mora na rua " + rua + " na casa de número " + numero + " localizada na cidade de " + cidade + " do estado de " + estado);
+			Console.WriteLine("Pressione algo para fechar ...");
+			Console.ReadKey(true);
+		}
+	}
+}
