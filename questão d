@@ -1,0 +1,17 @@
+using System;
+
+namespace Exercícios
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite 'sim' ou 'não': ");
+			string entrada = Console.ReadLine().ToLower();
+			bool resposta = (entrada == "sim");
+			Console.WriteLine("Você digitou: " + resposta);
+			Console.WriteLine("Pressione algo para fechar ...");
+			Console.ReadKey(true);
+		}
+	}
+}
