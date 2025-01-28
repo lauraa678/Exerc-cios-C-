@@ -1,0 +1,16 @@
+using System;
+
+namespace Exercícios
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite um único caractere: ");
+			char caractere = Console.ReadKey().KeyChar;
+			Console.WriteLine("\nO caractere que você digitou foi: " + caractere);
+			Console.WriteLine("Pressione algo para fechar ...");
+			Console.ReadKey(true);
+		}
+	}
+}
