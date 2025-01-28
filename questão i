@@ -1,0 +1,16 @@
+using System;
+
+namespace Exercícios
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite uma palavra: ");
+			string palavra = Console.ReadLine();
+			Console.WriteLine(" A palavra tem " + palavra.Length + " caracteres.");
+			Console.WriteLine("Pressione algo para fechar ...");
+			Console.ReadKey(true);
+		}
+	}
+}
