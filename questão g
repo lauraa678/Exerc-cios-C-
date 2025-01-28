@@ -1,0 +1,19 @@
+using System;
+
+namespace Exercícios
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite seu nome: ");
+			string nome = Console.ReadLine();
+			Console.WriteLine("Digite sua idade: ");
+			int idade = int.Parse(Console.ReadLine());
+		
+			Console.WriteLine("Seu nome é " + nome + " e você tem " + idade + " anos.");
+			Console.WriteLine("Pressione algo para fechar ...");
+			Console.ReadKey(true);
+		}
+	}
+}
