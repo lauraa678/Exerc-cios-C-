@@ -1,0 +1,16 @@
+using System;
+
+namespace Exercícios
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite um número de ponto flutuante: ");
+			float numero = float.Parse(Console.ReadLine());
+			Console.WriteLine("O número uqe você escreveu é: " + numero);
+			Console.WriteLine("Pressione algo para fechar ...");
+			Console.ReadKey(true);
+		}
+	}
+}
